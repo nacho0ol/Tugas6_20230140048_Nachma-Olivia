@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Halaman Biodata</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Cormorant+Garamond:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <center>
+      <h1 style="font-family: 'Cormorant Garamond', serif">VIDEO FOTO AUDIO</h1>
+      <ul>
+        <li>
+          <h2 id="video" style="font-family: 'Lato', sans-serif">
+            Video Kereta
+          </h2>
+          <hr />
+          <video
+            controls
+            width="500"
+            height="500"
+            loop
+            autoplay
+            muted
+            preload="auto"
+          >
+            <source src="kereta 1.mp4" type="video/mp4" />
+            <track
+              kind="captions"
+              src="kereta 1.mp4"
+              srclang="en"
+              label="English"
+            />
+          </video>
+        </li>
+        <li>
+          <h2 id="audio" style="font-family: 'Lato', sans-serif">
+            Audio "You'll be in my heart - NIKI"
+          </h2>
+          <hr />
+          <audio controls>
+            <source
+              src="NIKI - You'll Be in My Heart _ Lirik Terjemahan Indonesia.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+        </li>
+        <li>
+          <h2 id="gambar" style="font-family: 'Lato', sans-serif">
+            Here's some cat photo to make ur day better
+          </h2>
+          <hr />
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://static.republika.co.id/uploads/member/images/news/quwvfnbob8.jpg
+              "
+            />
+            <source
+              media="(max-width: 1200px)"
+              srcset="
+                https://i1.bing.com/th/id/OIP.bEyS_o3M-0KMQPsKMr17wgHfE7?w_251&h_180&c_7&r_0&o=5&dpr=1.2&pid=1.7
+              "
+            />
+            <img
+              src="https://i.pinimg.com/736x/b8/34/1a/b8341ab581fc52ed3e9e4e80d275e90d.jpg"
+              alt="pix 1"
+              style="width: auto"
+            />
+          </picture>
+        </li>
+      </ul>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
